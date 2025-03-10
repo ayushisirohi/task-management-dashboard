@@ -44,10 +44,10 @@ const AllTasks = () => {
     <DndProvider backend={HTML5Backend}>
       <div className="p-12 max-w-6xl mx-auto">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">Task Management</h2>
+          <h2 className="text-lg font-bold">Task Management</h2>
           <button
             onClick={() => setShowModal(true)}
-            className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 transition"
+            className="bg-green-600 text-white text-sm px-4 py-2 rounded-md hover:bg-green-700 transition"
           >
             + Add Task
           </button>

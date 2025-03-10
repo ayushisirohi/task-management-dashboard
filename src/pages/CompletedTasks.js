@@ -31,10 +31,10 @@ const CompletedTasks = () => {
     <DndProvider backend={HTML5Backend}>
       <div className="p-12 max-w-6xl mx-auto">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-2xl font-bold text-green-700">Completed Tasks</h2>
+          <h2 className="text-lg font-bold text-green-700">Completed Tasks</h2>
           <button 
             onClick={toggleSortOrder} 
-            className="flex items-center gap-2 bg-gray-200 dark:bg-gray-700 px-3 py-1.5 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600 transition"
+            className="flex items-center text-sm gap-2 bg-gray-200 dark:bg-gray-700 px-3 py-1.5 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600 transition"
           >
             Sort by Due Date
             {sortOrder === "asc" ? <ArrowUpIcon className="w-5 h-5 text-gray-600 dark:text-gray-300" /> : 
