@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/task-management-dashboard.git/static/css/main.cd44900d.css",
+    "main.js": "/task-management-dashboard.git/static/js/main.8a0486c2.js",
+    "index.html": "/task-management-dashboard.git/index.html",
+    "main.cd44900d.css.map": "/task-management-dashboard.git/static/css/main.cd44900d.css.map",
+    "main.8a0486c2.js.map": "/task-management-dashboard.git/static/js/main.8a0486c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd44900d.css",
+    "static/js/main.8a0486c2.js"
+  ]
+}
