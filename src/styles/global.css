@@ -1,0 +1,31 @@
+/* Custom styles for Task Management Dashboard */
+
+/* Smooth transitions for dark mode */
+body {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Task Card hover effect */
+  .task-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Buttons */
+  .button {
+    @apply px-3 py-2 rounded-md transition duration-200;
+  }
+  
+  .button-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+  
+  .button-secondary {
+    @apply bg-gray-600 text-white hover:bg-gray-700;
+  }
+  
+  /* Dark mode support */
+  .dark-mode {
+    @apply bg-gray-900 text-white;
+  }
+  
