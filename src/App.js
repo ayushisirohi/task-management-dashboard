@@ -30,7 +30,7 @@ const App = () => {
         <Navbar toggleTheme={toggleTheme} darkMode={darkMode} />
         <div className="pt-14 min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
           <Routes>
-            <Route path="/" element={<Navigate replace to="/all-tasks" />} />
+            <Route path="/*" element={<Navigate replace to="/all-tasks" />} />
             <Route path="/all-tasks" element={<AllTasks />} />
             <Route path="/completed" element={<CompletedTasks />} />
           </Routes>
